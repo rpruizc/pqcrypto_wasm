@@ -9,7 +9,11 @@ for programs.
 
 The main goal of WASM is to enable high-performance applications on web pages, but the format is designed to be executed and integrated in other environments as well, including standalone ones.
 
->The idea is to take PQCRYPTO algorithm implementations (e.g. Kyber or Saber) and compile them for WASM targets. 
+>The idea is to take PQCRYPTO algorithm implementations (e.g. Kyber or Saber) and compile them for WASM targets.
+
+>Kyber - https://pq-crystals.org/
+
+>Saber - https://www.esat.kuleuven.be/cosic/pqcrypto/saber/
 
 Besides potential non-optimality of compiler output, security issues such as random number generation need to be considered and evaluated. The second step is thus an evaluation of the status quo of WASM runtimes. 
 
